@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html id="html-01" lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+
+        <!---------------------------- FAVICON -------------------------->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+        <!---------------------------- GOOGLE FONTS LINK -------------------------->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link 
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;700&family=Bellefair&display=swap" 
+        rel="stylesheet">
+
+        <!---------------------------- BOOTSTRAP CSS CDN -------------------------->
+
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <title>Space Tourism</title>
+      </head>
+
+      <!--------------------------------  BODY  ------------------------------------>
+
+      <body id="body-03">
+
+        <!--------------------------------  NAVBAR SECTION  ------------------------------------>
+
+        <header class="primary-header flex">
+          <div>
+              <img class="logo" src="./assets/shared/logo.svg" alt="space-tourism-logo">
+          </div>
+          <button class="navbar-toggler-icon" aria-controls="primary-navigation" aria-expanded="false"></button>
+          <nav>
+              <ul data-visible="false" id="primary-navigation" class="primary-navigation flex">
+                <li>
+                  <a href="./index.html"><span>00</span> HOME</a>
+                </li>
+                <li>  
+                  <a href="./destination.html"><span>01</span> DESTINATION</a>
+                </li>
+                <li>
+                  <a href="./crew.html"><span>02</span> CREW</a>
+                </li>
+                <li class="active">
+                  <a href="./technology.html"><span>03</span> TECHNOLOGY</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </header>
+
+              <!--------------------------------  TECHNOLOGY CONTENT SECTION  ------------------------------------>
+
+            <div class="section-1">
+              <div class="main">
+                <h4 class="tech-heading"><span class="heading-span">02</span> SPACE LAUNCH 101</h4>
+              <div class="tech">
+              <div class="technology">
+                <div class="tech-nav">
+                  <div class="tech-item vehicle active-t">1</div>
+                  <div class="tech-item port">2</div>
+                  <div class="tech-item capsule">3</div>
+                </div>
+                <div class="tech-content">
+                   <h5 class="tech-title">THE TERMINOLOGY...</h5>
+                   <h1 class="tech-name">LAUNCH VEHICLE</h1>
+                   <p class="paragraph tech-p">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
+                    payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
+                    WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
+                    it's quite an awe-inspiring sight on the launch pad!</p>
+                </div>
+              
+            </div>
+                <div class="tech-img-div">
+                  <img class="tech-img" src="./assets/technology/image-launch-vehicle-portrait.jpg" alt="launch-vehicle-img">
+                </div>
+            </div>
+          </div>
+      
+            <!--------------------------------  BOOTSTRAP JS CDN  ------------------------------------>
+      
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+            
+            <!--------------------------------  JQUERY CDN  ------------------------------------>
+      
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+      
+            <!--------------------------------  JS FILE SCRIPT  ------------------------------------>
+      
+            <script src="./app.js"></script>
+      </body>
+</html>

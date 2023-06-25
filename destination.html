@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html id="html-01" lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+
+        <!---------------------------- FAVICON -------------------------->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+        <!---------------------------- GOOGLE FONTS LINK -------------------------->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link 
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;700&family=Bellefair&display=swap" 
+        rel="stylesheet">
+
+        <!---------------------------- BOOTSTRAP CSS CDN -------------------------->
+
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <title>Space Tourism</title>
+      </head>
+
+      <!--------------------------------  BODY  ------------------------------------>
+
+      <body id="body-01">
+
+          <!--------------------------------  NAVBAR SECTION  ------------------------------------>
+
+          <header class="primary-header flex">
+            <div>
+                <img class="logo" src="./assets/shared/logo.svg" alt="space-tourism-logo">
+            </div>
+            <button class="navbar-toggler-icon" aria-controls="primary-navigation" aria-expanded="false"></button>
+            <nav>
+                <ul data-visible="false" id="primary-navigation" class="primary-navigation flex">
+                  <li>
+                    <a href="./index.html"><span>00</span> HOME</a>
+                  </li>
+                  <li class="active">
+                    <a href="./destination.html"><span>01</span> DESTINATION</a>
+                  </li>
+                  <li>
+                    <a href="./crew.html"><span>02</span> CREW</a>
+                  </li>
+                  <li>
+                    <a href="./technology.html"><span>03</span> TECHNOLOGY</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+        </header>
+
+          <!--------------------------------  DESTINATION CONTENT SECTION  ------------------------------------>
+
+        <section class="section">
+          <div class="planet-img">
+            <h4 class="heading"><span class="heading-span">01</span> PICK YOUR DESTINATION</h4>
+            <img id="moon-img" src="./assets/destination/image-moon.png" alt="moon-img">
+        </div>
+        <div class="dest-content">
+          <div class="planet-navbar">
+              <ul class="nav">
+                  <li class="nav-item li-item active moon">
+                    <a class="nav-link" href="#">MOON</a>
+                  </li>
+                  <li class="nav-item li-item mars">
+                    <a class="nav-link" href="#">MARS</a>
+                  </li>
+                  <li class="nav-item li-item europa">
+                    <a class="nav-link" href="#">EUROPA</a>
+                  </li>
+                  <li class="nav-item li-item titan">
+                    <a class="nav-link" href="#">TITAN</a>
+                  </li>
+                </ul>
+          </div>
+              <span class="planet-name">MOON</span>
+              <p class="paragraph moon-p">
+                See our planet as you've never seen it before. A perfect relaxing trip away to help 
+                regain perspective and come back refreshed. While you're there, take in some history 
+                by visiting the Luna 2 and Apollo 11 landing sites.
+              </p>
+              <hr>
+              <div class="travel">
+                <div class="distance">
+                    <span class="travel-title">AVG. DISTANCE</span>
+                    <h3 class="value dis-value">384,400 KM</h3>
+                </div>
+                <div class="time">
+                    <span class="travel-title">EST. TRAVEL TIME</span>
+                    <h3 class="value time-value">3 DAYS</h3>
+                </div>
+              </div>
+        </div>
+        </section>
+
+            <!--------------------------------  BOOTSTRAP JS CDN  ------------------------------------>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+            
+            <!--------------------------------  JQUERY CDN  ------------------------------------>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+            <!--------------------------------  JS FILE SCRIPT  ------------------------------------>
+
+            <script src="./app.js"></script>
+      </body>
+
+</html>
