@@ -229,6 +229,9 @@
     .home{
         row-gap: 0;
     }
+    .content{
+        padding-top: 0;
+    }
     .title{
         font-size: 6rem;
     }
