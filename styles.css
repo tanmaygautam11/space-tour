@@ -28,6 +28,9 @@
     background: hsl(0 0% 100% / 0.1);
     backdrop-filter: blur(1rem);
 }
+.primary-navigation li:hover{
+        border-bottom: 2px solid #b3b3b3;
+}
 .primary-navigation a{
     text-decoration: none;
     color: white;
@@ -67,10 +70,7 @@
         align-items: center;
         padding-inline: 0.5rem;
     }
-    .primary-navigation li
-    {
-        border-bottom: 2px solid #b3b3b3;
-    }
+    
 }
 
 /**********************************************  Mobile-navbar  **************************************************/
